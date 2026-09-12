@@ -9,8 +9,16 @@ build/
 venv/
 
 # Data (DVC-tracked)
-data/raw/
-data/processed/
+# Ignore everything in raw and processed, but keep .dvc metadata + .gitignore
+data/raw/*
+!data/raw/*.dvc
+!data/raw/.gitignore
+
+data/processed/*
+!data/processed/*.dvc
+!data/processed/.gitignore
+
+# Model artifacts
 *.h5
 *.pt
 *.onnx
