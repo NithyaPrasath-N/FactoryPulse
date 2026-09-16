@@ -25,7 +25,8 @@ data/processed/*
 *.pkl
 
 # Environment
-.env
+.env.*
+.dvcignore
 *.log
 
 # IDE
