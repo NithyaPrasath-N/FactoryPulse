@@ -27,8 +27,8 @@ data/processed/*
 # Environment
 .env
 .dvcignore
+.dvc
 .env.*
-.dvcignore
 *.log
 
 # IDE
