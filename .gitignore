@@ -25,6 +25,8 @@ data/processed/*
 *.pkl
 
 # Environment
+.env
+.dvcignore
 .env.*
 .dvcignore
 *.log
